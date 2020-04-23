@@ -1,0 +1,7 @@
+dag_id: dag
+input_path: /home/cloudera/data/hadoop_project/inputfiles
+output_path: /home/cloudera/data/hadoop_project/outputfiles
+hive_connection: hive_cli_default
+hive_schema: asg_hadoop
+project_home: /home/cloudera/airflow/dags
+tmp_dir: /home/cloudera/data/hadoop_project/tmp
